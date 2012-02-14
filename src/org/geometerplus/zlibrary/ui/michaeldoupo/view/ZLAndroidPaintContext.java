@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaelbaba.view;
+package org.geometerplus.zlibrary.ui.michaeldoupo.view;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -27,8 +27,8 @@ import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 import org.geometerplus.zlibrary.core.image.ZLImageData;
 import org.geometerplus.zlibrary.core.util.ZLColor;
 import org.geometerplus.zlibrary.core.view.ZLPaintContext;
-import org.geometerplus.zlibrary.ui.michaelbaba.image.ZLAndroidImageData;
-import org.geometerplus.zlibrary.ui.michaelbaba.util.ZLAndroidColorUtil;
+import org.geometerplus.zlibrary.ui.michaeldoupo.image.ZLAndroidImageData;
+import org.geometerplus.zlibrary.ui.michaeldoupo.util.ZLAndroidColorUtil;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

@@ -20,7 +20,7 @@
 package org.geometerplus.fbreader;
 
 import org.geometerplus.zlibrary.core.options.ZLStringOption;
-import org.geometerplus.zlibrary.ui.michaelbaba.library.ZLAndroidApplication;
+import org.geometerplus.zlibrary.ui.michaeldoupo.library.ZLAndroidApplication;
 
 public abstract class Paths {
 	public static String cardDirectory() {

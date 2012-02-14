@@ -17,14 +17,14 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaelbaba.library;
+package org.geometerplus.zlibrary.ui.michaeldoupo.library;
 
 import java.lang.reflect.Field;
 
 import org.geometerplus.zlibrary.core.application.ZLApplication;
 import org.geometerplus.zlibrary.core.filesystem.ZLFile;
-import org.geometerplus.zlibrary.ui.michaelbaba.application.ZLAndroidApplicationWindow;
-import org.geometerplus.zlibrary.ui.michaelbaba.R;
+import org.geometerplus.zlibrary.ui.michaeldoupo.application.ZLAndroidApplicationWindow;
+import org.geometerplus.zlibrary.ui.michaeldoupo.R;
 
 import com.mobclick.android.MobclickAgent;
 
@@ -45,8 +45,8 @@ import android.view.WindowManager;
 public abstract class ZLAndroidActivity extends Activity {
 	protected abstract ZLApplication createApplication(ZLFile file);
 
-	private static final String REQUESTED_ORIENTATION_KEY = "org.geometerplus.zlibrary.ui.michaelbaba.library.androidActiviy.RequestedOrientation";
-	private static final String ORIENTATION_CHANGE_COUNTER_KEY = "org.geometerplus.zlibrary.ui.michaelbaba.library.androidActiviy.ChangeCounter";
+	private static final String REQUESTED_ORIENTATION_KEY = "org.geometerplus.zlibrary.ui.michaeldoupo.library.androidActiviy.RequestedOrientation";
+	private static final String ORIENTATION_CHANGE_COUNTER_KEY = "org.geometerplus.zlibrary.ui.michaeldoupo.library.androidActiviy.ChangeCounter";
 
 	@Override
 	protected void onSaveInstanceState(Bundle state) {

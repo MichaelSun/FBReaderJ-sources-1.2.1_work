@@ -17,23 +17,23 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaelbaba.view;
+package org.geometerplus.zlibrary.ui.michaeldoupo.view;
 
 import android.graphics.*;
 
-class SlideAnimationProvider extends SimpleAnimationProvider {
+class ShiftAnimationProvider extends SimpleAnimationProvider {
 	private final Paint myPaint = new Paint();
 
-	SlideAnimationProvider(BitmapManager bitmapManager) {
+	ShiftAnimationProvider(BitmapManager bitmapManager) {
 		super(bitmapManager);
 	}
 
 	@Override
 	protected void drawInternal(Canvas canvas) {
-		canvas.drawBitmap(getBitmapTo(), 0, 0, myPaint);
 		myPaint.setColor(Color.rgb(127, 127, 127));
 		if (myDirection.IsHorizontal) {
 			final int dX = myEndX - myStartX;
+			canvas.drawBitmap(getBitmapTo(), dX > 0 ? dX - myWidth : dX + myWidth, 0, myPaint);
 			canvas.drawBitmap(getBitmapFrom(), dX, 0, myPaint);
 			if (dX > 0 && dX < myWidth) {
 				canvas.drawLine(dX, 0, dX, myHeight + 1, myPaint);
@@ -42,6 +42,7 @@ class SlideAnimationProvider extends SimpleAnimationProvider {
 			}
 		} else {
 			final int dY = myEndY - myStartY;
+			canvas.drawBitmap(getBitmapTo(), 0, dY > 0 ? dY - myHeight : dY + myHeight, myPaint);
 			canvas.drawBitmap(getBitmapFrom(), 0, dY, myPaint);
 			if (dY > 0 && dY < myHeight) {
 				canvas.drawLine(0, dY, myWidth + 1, dY, myPaint);

@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaelbaba.view;
+package org.geometerplus.zlibrary.ui.michaeldoupo.view;
 
 import android.graphics.*;
 

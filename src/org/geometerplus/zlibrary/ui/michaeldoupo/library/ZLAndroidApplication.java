@@ -17,13 +17,13 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaelbaba.library;
+package org.geometerplus.zlibrary.ui.michaeldoupo.library;
 
 import org.geometerplus.zlibrary.core.options.ZLBooleanOption;
 import org.geometerplus.zlibrary.core.options.ZLIntegerRangeOption;
 import org.geometerplus.zlibrary.core.sqliteconfig.ZLSQLiteConfig;
-import org.geometerplus.zlibrary.ui.michaelbaba.application.ZLAndroidApplicationWindow;
-import org.geometerplus.zlibrary.ui.michaelbaba.image.ZLAndroidImageManager;
+import org.geometerplus.zlibrary.ui.michaeldoupo.application.ZLAndroidApplicationWindow;
+import org.geometerplus.zlibrary.ui.michaeldoupo.image.ZLAndroidImageManager;
 
 import android.app.Application;
 import android.os.Build;

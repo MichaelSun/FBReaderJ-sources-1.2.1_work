@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaelbaba.image;
+package org.geometerplus.zlibrary.ui.michaeldoupo.image;
 
 import java.util.HashMap;
 import java.util.LinkedList;

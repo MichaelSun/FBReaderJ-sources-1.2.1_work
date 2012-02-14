@@ -7,7 +7,7 @@
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:umadsdk="http://schemas.android.com/apk/res/org.geometerplus.zlibrary.ui.michaelbaba"
+        xmlns:umadsdk="http://schemas.android.com/apk/res/org.geometerplus.zlibrary.ui.michaeldoupo"
         android:id="@+id/adview_region"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
             umadsdk:textColor="#ffffff" />
     </LinearLayout>
  
-	<org.geometerplus.zlibrary.ui.michaelbaba.view.ZLAndroidWidget
+	<org.geometerplus.zlibrary.ui.michaeldoupo.view.ZLAndroidWidget
 		android:id="@+id/main_view"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"

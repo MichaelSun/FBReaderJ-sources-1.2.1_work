@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaelbaba.library;
+package org.geometerplus.zlibrary.ui.michaeldoupo.library;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -32,8 +32,8 @@ import java.util.TreeSet;
 import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 import org.geometerplus.zlibrary.core.filesystem.ZLResourceFile;
 import org.geometerplus.zlibrary.core.library.ZLibrary;
-import org.geometerplus.zlibrary.ui.michaelbaba.view.ZLAndroidWidget;
-import org.geometerplus.zlibrary.ui.michaelbaba.R;
+import org.geometerplus.zlibrary.ui.michaeldoupo.view.ZLAndroidWidget;
+import org.geometerplus.zlibrary.ui.michaeldoupo.R;
 
 import android.app.Application;
 import android.content.Context;
