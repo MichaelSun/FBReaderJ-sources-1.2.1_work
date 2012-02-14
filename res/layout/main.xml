@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/root_view"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:umadsdk="http://schemas.android.com/apk/res/org.geometerplus.zlibrary.ui.michaelbaba"
+        android:id="@+id/adview_region"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true" >
+
+        <net.youmi.android.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            umadsdk:backgroundColor="#4076AA"
+            umadsdk:backgroundTransparent="155"
+            umadsdk:textColor="#ffffff" />
+    </LinearLayout>
+ 
+	<org.geometerplus.zlibrary.ui.michaelbaba.view.ZLAndroidWidget
+		android:id="@+id/main_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_above="@id/adview_region"
+		android:focusable="true"
+		android:scrollbars="vertical"
+		android:scrollbarAlwaysDrawVerticalTrack="true"
+	/>
+</RelativeLayout>

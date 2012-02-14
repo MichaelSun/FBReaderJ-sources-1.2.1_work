@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="empty_string"></string>
+    <declare-styleable name="net.youmi.android.AdView">
+        <attr format="color" name="backgroundColor" />
+        <attr format="color" name="textColor" />
+        <attr format="integer" name="backgroundTransparent" />
+    </declare-styleable>
+    
+	<string name="app_name">江山美人志</string>
+	<string name="download_tips">"您的书币已经不足100,需要下载软件获得100书币才能继续阅读,下载软件不会收取您的费用,请放心下载"</string>
+
+</resources>

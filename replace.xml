@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="replace" default="replace">
+	<property name="src.dir" value="src" />
+	<property name="res.dir" value="res" />
+	<property name="menifest" value="AndroidManifest.xml" />
+	<property name="config" value="src/org/geometerplus/android/fbreader/Config.java" />
+	<property name="strings" value="res/values/strings.xml" />
+	<property name="to.dir" value="src/org/geometerplus/zlibrary/ui/${to}" />
+	<property name="from.dir" value="src/org/geometerplus/zlibrary/ui/${from}" />
+
+	<target name="replace">
+		<echo message="[[[[[[[[[ begin replace task ]]]]]]]]]]" />
+        <echo message="replace ${from} to ${to}" />
+
+		<replace dir="${src.dir}" value="${to}" token="${from}" >
+			<include name="**/*.java" />
+		</replace>
+
+		<replace dir="${res.dir}" value="${to}" token="${from}" >
+			<include name="**/*.xml" />
+		</replace>
+
+		<replace file="${menifest}" value="${to}" token="${from} ">
+		</replace>
+
+		<echo message="======== after replace, begin move operation ========" />
+		<move todir="${to.dir}" >
+			<fileset dir="${from.dir}" />
+		</move>
+
+		<echo message="begin replace key" />
+
+		<replaceregexp file="${config}" 
+                match="APP_ID\s=\s*&quot;\w*&quot;"
+				replace="APP_ID = &quot;${appid}&quot;"
+				byline="true" />
+		<replaceregexp file="${config}" 
+                match="APP_SECRET_KEY\s=\s*&quot;\w*&quot;"
+				replace="APP_SECRET_KEY = &quot;${appkey}&quot;"
+				byline="true" />
+
+		<echo message="[[[[[[[[[[[ end replace task ]]]]]]]]]]" />
+	</target>
+
+</project>
