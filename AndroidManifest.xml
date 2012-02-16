@@ -35,6 +35,7 @@
 
 		<meta-data android:value="4f2e3d1a5270156ac000000e" android:name="UMENG_APPKEY" />  
      	<meta-data android:value="@string/app_name" android:name="UMENG_CHANNEL"/>
+		<meta-data android:name="YOUMI_CHANNEL" android:value="10020"></meta-data>
 
         <activity
             android:configChanges="keyboard|keyboardHidden|orientation"
