@@ -45,8 +45,8 @@ import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 import org.geometerplus.zlibrary.core.filesystem.ZLPhysicalFile;
 import org.geometerplus.zlibrary.core.image.ZLImage;
 import org.geometerplus.zlibrary.core.resources.ZLResource;
-import org.geometerplus.zlibrary.ui.michaelhezu.R;
-import org.geometerplus.zlibrary.ui.michaelhezu.library.ZLAndroidApplication;
+import org.geometerplus.zlibrary.ui.michaeldaomu.R;
+import org.geometerplus.zlibrary.ui.michaeldaomu.library.ZLAndroidApplication;
 
 import android.content.Context;
 import android.content.res.Resources;

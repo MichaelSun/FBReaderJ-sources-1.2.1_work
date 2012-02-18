@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaelhezu.view;
+package org.geometerplus.zlibrary.ui.michaeldaomu.view;
 
 import net.youmi.android.appoffers.AppOffersManager;
 
@@ -25,8 +25,8 @@ import org.geometerplus.android.fbreader.Config;
 import org.geometerplus.zlibrary.core.application.ZLApplication;
 import org.geometerplus.zlibrary.core.view.ZLView;
 import org.geometerplus.zlibrary.core.view.ZLViewWidget;
-import org.geometerplus.zlibrary.ui.michaelhezu.library.ZLAndroidActivity;
-import org.geometerplus.zlibrary.ui.michaelhezu.R;
+import org.geometerplus.zlibrary.ui.michaeldaomu.library.ZLAndroidActivity;
+import org.geometerplus.zlibrary.ui.michaeldaomu.R;
 
 import com.mobclick.android.MobclickAgent;
 

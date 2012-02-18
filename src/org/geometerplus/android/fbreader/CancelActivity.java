@@ -25,7 +25,7 @@ import android.os.Bundle;
 import android.widget.*;
 import android.view.*;
 
-import org.geometerplus.zlibrary.ui.michaelhezu.R;
+import org.geometerplus.zlibrary.ui.michaeldaomu.R;
 
 public class CancelActivity extends ListActivity {
 	static final String LIST_SIZE = "listSize";
