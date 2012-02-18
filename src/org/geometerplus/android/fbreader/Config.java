@@ -1,9 +1,9 @@
 package org.geometerplus.android.fbreader;
 
 public class Config {
-    public static final String APP_ID = "c4741131b30fd5c2";
+    public static final String APP_ID = "a202842eb3aadec9";
     
-    public static final String APP_SECRET_KEY = "dc329af359a414d2";
+    public static final String APP_SECRET_KEY = "645b5eb0fffab2fb";
     
     public static final int REFRESH_DELAY = 60;
     

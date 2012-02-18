@@ -29,9 +29,9 @@ import org.geometerplus.fbreader.fbreader.FBReaderApp;
 import org.geometerplus.fbreader.library.Book;
 import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 import org.geometerplus.zlibrary.text.hyphenation.ZLTextHyphenator;
-import org.geometerplus.zlibrary.ui.michaeldoupo.R;
-import org.geometerplus.zlibrary.ui.michaeldoupo.library.ZLAndroidActivity;
-import org.geometerplus.zlibrary.ui.michaeldoupo.library.ZLAndroidApplication;
+import org.geometerplus.zlibrary.ui.michaelhezu.R;
+import org.geometerplus.zlibrary.ui.michaelhezu.library.ZLAndroidActivity;
+import org.geometerplus.zlibrary.ui.michaelhezu.library.ZLAndroidApplication;
 
 import com.mobclick.android.MobclickAgent;
 

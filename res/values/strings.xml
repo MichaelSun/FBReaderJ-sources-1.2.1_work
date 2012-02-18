@@ -8,7 +8,7 @@
         <attr format="integer" name="backgroundTransparent" />
     </declare-styleable>
     
-	<string name="app_name">总裁夜夜爱</string>
+	<string name="app_name">我和妓女的合租生活</string>
 	<string name="download_tips">"您的书币已经不足100,需要下载软件获得100书币才能继续阅读,下载软件不会收取您的费用,请放心下载"</string>
 
 </resources>
