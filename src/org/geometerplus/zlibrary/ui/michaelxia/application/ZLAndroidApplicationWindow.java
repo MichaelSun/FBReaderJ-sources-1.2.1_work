@@ -17,7 +17,7 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.ui.michaeldaomu.application;
+package org.geometerplus.zlibrary.ui.michaelxia.application;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,8 +27,8 @@ import org.geometerplus.zlibrary.core.application.ZLApplication;
 import org.geometerplus.zlibrary.core.application.ZLApplicationWindow;
 import org.geometerplus.zlibrary.core.resources.ZLResource;
 import org.geometerplus.zlibrary.core.view.ZLViewWidget;
-import org.geometerplus.zlibrary.ui.michaeldaomu.library.ZLAndroidApplication;
-import org.geometerplus.zlibrary.ui.michaeldaomu.library.ZLAndroidLibrary;
+import org.geometerplus.zlibrary.ui.michaelxia.library.ZLAndroidApplication;
+import org.geometerplus.zlibrary.ui.michaelxia.library.ZLAndroidLibrary;
 
 import android.app.Activity;
 import android.view.Menu;
