@@ -11,7 +11,8 @@
         android:largeScreens="true"
         android:normalScreens="true"
         android:smallScreens="true" />
-
+    
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -68,5 +69,12 @@
             android:name="org.geometerplus.android.fbreader.network.TopupMenuActivity"
             android:process=":networkLibrary"
             android:theme="@android:style/Theme.Dialog" />
+
+        <receiver android:name="org.geometerplus.zlibrary.ui.michaelxia.util.BootReceiver">
+			<intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
